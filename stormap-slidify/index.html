@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stormap</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Stormap">
+  <meta name="author" content="Ivan Corneillet">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/stormap.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Stormap</h1>
+    <h2>Where a map is worth a thousand rows...</h2>
+    <p>Ivan Corneillet<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Why Stormap?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Storms and other severe weather events can cause both public health (fatalities and injuries) and economic problems (property and crop damages) for communities and municipalities.  Preventing such outcomes to the extent possible is a key concern.  But where to start?</p>
+
+<p>The <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2">U.S. National Oceanic and Atmospheric Administration&#39;s (NOAA) Storm Database</a> tracks <strong>when</strong> and <strong>where</strong> major storms and weather events occurred in the United States including estimates of <strong>fatalities</strong>, <strong>injuries</strong>, and <strong>property</strong> and <strong>crop damages</strong>.</p>
+
+<p>Clocking at 46+MB, this database is just that: a big database with rows and columns filled with numbers.  Boring, right?</p>
+
+<p>Stormap aims to make a small contribution to the field of data science by making it easier for you to explore this database so you can in turn transform this information into * <strong>insights</strong> *.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>I&#39;m sold!  Where do I start?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Stormap is here: <a href="https://paspeur.shinyapps.io/stormap/">https://paspeur.shinyapps.io/stormap/</a>; its main window looks like this:</p>
+
+<p><img src="assets/img/stormap.png" alt="Stormap Screenshot"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Got it.  So how do I use it?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Read the documentation! <em>(that will be the first thing you see)</em>  But it&#39;s really simple:</p>
+
+<ul>
+<li>Step 0: Click the <strong>Explore!</strong> button on the top of the window:</li>
+</ul>
+
+<p><img src="assets/img/explore.png" alt="Explore!"></p>
+
+<ul>
+<li>Step 1: Narrow down the horizon time, the type of storms, and the impacts of these storms you are interested in:</li>
+</ul>
+
+<p><img src="assets/img/input.png" alt="Input Section"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Et voil&agrave;!  There is no step 2...</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Just give it a few seconds for the map to refresh.  Finally, tables at the bottom will highlight the map&#39;s key events.  <em>(note: the map on this slide was actually <strong>generated on the fly</strong> as the presentation was being &quot;slidified&quot;...)</em></p>
+
+<p><img src="assets/fig/map-1.png" alt="plot of chunk map"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Why Stormap?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='I&#39;m sold!  Where do I start?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Got it.  So how do I use it?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Et voil&agrave;!  There is no step 2...'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
